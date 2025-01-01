@@ -1,0 +1,26 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #ffffff;
+  }
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+h1 {
+    color: #333;
+  }
+.controls {
+    margin-bottom: 15px;
+  }
+input[type="text"], button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+canvas {
+    border: 2px solid #333;
+    margin-top: 10px;
+  }

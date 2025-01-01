@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bulid A Meme Generator</title>
+  <link href="internchain_logo.jpg" rel="icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1> MEME GENERATOR</h1>
+    <div class="controls">
+      <input type="file" id="imageUpload" accept="image/*">
+      <input type="text" id="topText" placeholder="Top Text">
+      <input type="text" id="bottomText" placeholder="Bottom Text">
+      <input type="color" id="textColor" value="#ffffff">
+      <input type="range" id="textSize" min="20" max="100" value="40">
+      <button id="downloadMeme">Download Meme</button>
+    </div>
+    <canvas id="memeCanvas"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
